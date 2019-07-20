@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url("./bg.webp") bottom center;
+  background: url("./bg1.jpg") bottom center;
   background-size: cover;
 }
 
@@ -11,7 +11,7 @@ body,html {
 }
 
 .container {
-  padding-right: 150px;
+  padding-right: 80px;
   padding-bottom: 150px;
 }
 .keys {
