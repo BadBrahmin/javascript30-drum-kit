@@ -11,8 +11,9 @@ body,html {
 }
 
 .container {
-  padding-right: 80px;
-  padding-bottom: 150px;
+  margin: 50px;
+  /* p-bottom: 10px; */
+
 }
 .keys {
   display: flex;
@@ -24,7 +25,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgb(83, 52, 46);
   border-radius: .5rem;
   margin: 2rem;
   font-size: 1.5rem;
