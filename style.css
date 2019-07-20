@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url("./bg.webp") bottom center;
   background-size: cover;
 }
 
@@ -10,10 +10,15 @@ body,html {
   font-family: sans-serif;
 }
 
+.container {
+  padding-right: 150px;
+  padding-bottom: 150px;
+}
 .keys {
   display: flex;
   flex: 1;
   min-height: 100vh;
+  margin: 2rem;
   align-items: center;
   justify-content: center;
 }
@@ -21,7 +26,7 @@ body,html {
 .key {
   border: .4rem solid black;
   border-radius: .5rem;
-  margin: 1rem;
+  margin: 2rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
@@ -48,4 +53,14 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+/* Footer */
+.footer {
+  /* background: #f5f5f5; */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #ffc600;
+  font-size: 1.5rem;
+  padding: 15px 0;
 }
